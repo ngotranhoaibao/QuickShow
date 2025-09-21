@@ -32,7 +32,7 @@
                     <button class="header__search" aria-label="Search"><i
                             class="fa-solid fa-magnifying-glass"></i></button>
                     <button class="header__login">Login</button>
-                    <div class="header__menu" >
+                    <div class="header__menu">
                         <i class="fa-solid fa-bars"></i>
                     </div>
                 </div>
@@ -139,28 +139,31 @@
         </div>
 
         <div class="trailers__thumbs">
-            <a class="thumb" href="https://www.youtube.com/watch?v=WpW36ldAqnM" target="_blank" rel="noopener">
-                <img class="thumb__img" src="https://img.youtube.com/vi/WpW36ldAqnM/maxresdefault.jpg" alt="Trailer 1">
-                <svg class="thumb__play" viewBox="0 0 24 24" aria-hidden="true">
-                    <circle cx="12" cy="12" r="10" fill="none" stroke-width="1.6"></circle>
-                    <polygon points="10,8 16,12 10,16"></polygon>
-                </svg>
-            </a>
-            <a class="thumb" href="https://www.youtube.com/watch?v=-sAOWhvheK8" target="_blank" rel="noopener">
+            
+                <a class="thumb" data-video-id="WpW36ldAqnM" href="https://www.youtube.com/watch?v=WpW36ldAqnM" target="_blank" rel="noopener">
+                    <img class="thumb__img" src="https://img.youtube.com/vi/WpW36ldAqnM/maxresdefault.jpg"
+                        alt="Trailer 1">
+                    <svg class="thumb__play" viewBox="0 0 24 24" aria-hidden="true">
+                        <circle cx="12" cy="12" r="10" fill="none" stroke-width="1.6"></circle>
+                        <polygon points="10,8 16,12 10,16"></polygon>
+                    </svg>
+                </a>
+
+            <a class="thumb" data-video-id="-sAOWhvheK8" href="https://www.youtube.com/watch?v=-sAOWhvheK8" target="_blank" rel="noopener">
                 <img class="thumb__img" src="https://img.youtube.com/vi/-sAOWhvheK8/maxresdefault.jpg" alt="Trailer 2">
                 <svg class="thumb__play" viewBox="0 0 24 24" aria-hidden="true">
                     <circle cx="12" cy="12" r="10" fill="none" stroke-width="1.6"></circle>
                     <polygon points="10,8 16,12 10,16"></polygon>
                 </svg>
             </a>
-            <a class="thumb" href="https://www.youtube.com/watch?v=1pHDWnXmK7Y" target="_blank" rel="noopener">
+            <a class="thumb" data-video-id="1pHDWnXmK7Y" href="https://www.youtube.com/watch?v=1pHDWnXmK7Y" target="_blank" rel="noopener">
                 <img class="thumb__img" src="https://img.youtube.com/vi/1pHDWnXmK7Y/maxresdefault.jpg" alt="Trailer 3">
                 <svg class="thumb__play" viewBox="0 0 24 24" aria-hidden="true">
                     <circle cx="12" cy="12" r="10" fill="none" stroke-width="1.6"></circle>
                     <polygon points="10,8 16,12 10,16"></polygon>
                 </svg>
             </a>
-            <a class="thumb" href="https://www.youtube.com/watch?v=umiKiW4En9g" target="_blank" rel="noopener">
+            <a class="thumb" data-video-id="umiKiW4En9g" href="https://www.youtube.com/watch?v=umiKiW4En9g" target="_blank" rel="noopener">
                 <img class="thumb__img" src="https://img.youtube.com/vi/umiKiW4En9g/maxresdefault.jpg" alt="Trailer 4">
                 <svg class="thumb__play" viewBox="0 0 24 24" aria-hidden="true">
                     <circle cx="12" cy="12" r="10" fill="none" stroke-width="1.6"></circle>
@@ -200,9 +203,7 @@
 
         <p class="footer-bottom">Copyright 2025 © GreatStack. All Right Reserved.</p>
     </footer>
-
-
-
+    <script src="./script.js"></script>
 </body>
 
 </html>
