@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+
+</head>
+
+<body>
+    <section class="movie-page ">
+        <header class="header ">
+            <div class="header__inner">
+                <a class="header__logo" href="/">
+                    <img src="./Images/favicon.svg" alt="QuickShow" />
+                    uickShow
+                </a>
+
+                <nav class="header__nav">
+                    <ul class="nav__list">
+                        <li><a class="nav__link" href="/">Home</a></li>
+                        <li><a class="nav__link" href="/movies">Movies</a></li>
+                        <li><a class="nav__link" href="/">Theaters</a></li>
+                        <li><a class="nav__link" href="/">Releases</a></li>
+                    </ul>
+                </nav>
+
+                <div class="header__actions">
+                    <button class="header__search" aria-label="Search"><i
+                            class="fa-solid fa-magnifying-glass"></i></button>
+                    <button class="header__login">Login</button>
+                    <div class="header__menu" >
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="hero container">
+            <div class="hero__content">
+                <div class="hero__studio">
+                    <img class="hero__studio-logo" src="./Images/marvelLogo-D2PF-9pQ.svg" alt="Marvel Studios" />
+                </div>
+
+                <h1 class="hero__title">Guardians<br>of the Galaxy</h1>
+
+                <div class="hero__meta">
+                    <span>Action | Adventure | Sci-Fi</span>
+                    <span><i class="fa-solid fa-calendar"></i> 2018</span>
+                    <span><i class="fa-solid fa-stopwatch"></i> 2h 8m</span>
+                </div>
+
+                <p class="hero__description">
+                    In a post-apocalyptic world where cities ride on wheels and consume each other to survive, two
+                    people meet in London and try to stop a conspiracy.
+                </p>
+
+                <button class="hero__button" href="">Explore Movies <i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+        </div>
+    </section>
+    <section class="showing container">
+        <div class="showing__header">
+            <h2 class="showing__title">Now Showing</h2>
+            <button class="showing__viewall">
+                View All
+                <span class="showing__icon"><i class="fa-solid fa-arrow-right"></i></span>
+            </button>
+        </div>
+
+        <div class="showing__list">
+            <div class="card">
+                <img src="https://image.tmdb.org/t/p/original/7HqLLVjdjhXS0Qoz1SgZofhkIpE.jpg" alt=""
+                    class="card__image">
+                <h3 class="card__title">How to Train Your Dragon</h3>
+                <p class="card__meta">2025 <i class="fa-solid fa-circle"></i> Action | Family <i
+                        class="fa-solid fa-circle"></i> 2h 5m</p>
+                <div class="card__footer">
+                    <button class="card__button">Buy Tickets</button>
+                    <p class="card__rating"><i class="fa-solid fa-star"></i> 7.6</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://image.tmdb.org/t/p/original/bsrhm3rlE4Wzv9f5ZTxcNxaMz29.jpg" alt=""
+                    class="card__image">
+                <h3 class="card__title">K.O.</h3>
+                <p class="card__meta">2025 <i class="fa-solid fa-circle"></i> Action | Drama <i
+                        class="fa-solid fa-circle"></i> 1h 24m</p>
+                <div class="card__footer">
+                    <button class="card__button">Buy Tickets</button>
+                    <p class="card__rating"><i class="fa-solid fa-star"></i> 7.4</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://image.tmdb.org/t/p/original/aEG09hZZEDZ23Y9WYI701W6Gwnb.jpg" alt=""
+                    class="card__image">
+                <h3 class="card__title">Mission: Impossible - The Final Reckoning</h3>
+                <p class="card__meta">2025 <i class="fa-solid fa-circle"></i> Action | Adventure <i
+                        class="fa-solid fa-circle"></i> 2h 50m</p>
+                <div class="card__footer">
+                    <button class="card__button">Buy Tickets</button>
+                    <p class="card__rating"><i class="fa-solid fa-star"></i> 7.2</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://image.tmdb.org/t/p/original/wvr3Nh8TALWbmATrnlNg5Vhf6d3.jpg" alt=""
+                    class="card__image">
+                <h3 class="card__title">STRAW</h3>
+                <p class="card__meta">2025 <i class="fa-solid fa-circle"></i> Thriller | Drama <i
+                        class="fa-solid fa-circle"></i> 1h 45m</p>
+                <div class="card__footer">
+                    <button class="card__button">Buy Tickets</button>
+                    <p class="card__rating"><i class="fa-solid fa-star"></i> 8.3</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="showing__more">
+            <button class="showing__button">Show more</button>
+        </div>
+    </section>
+    <section class="trailers container">
+        <h2 class="trailers__title">Trailers</h2>
+
+        <div class="trailers__stage">
+            <div class="trailers__player">
+                <iframe class="trailers__iframe"
+                    src="https://www.youtube.com/embed/WpW36ldAqnM?autoplay=0&mute=0&controls=0&playsinline=1&showinfo=0&rel=0&modestbranding=1"
+                    title="Marvel Television's Ironheart | Official Trailer | Disney+"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                </iframe>
+            </div>
+        </div>
+
+        <div class="trailers__thumbs">
+            <a class="thumb" href="https://www.youtube.com/watch?v=WpW36ldAqnM" target="_blank" rel="noopener">
+                <img class="thumb__img" src="https://img.youtube.com/vi/WpW36ldAqnM/maxresdefault.jpg" alt="Trailer 1">
+                <svg class="thumb__play" viewBox="0 0 24 24" aria-hidden="true">
+                    <circle cx="12" cy="12" r="10" fill="none" stroke-width="1.6"></circle>
+                    <polygon points="10,8 16,12 10,16"></polygon>
+                </svg>
+            </a>
+            <a class="thumb" href="https://www.youtube.com/watch?v=-sAOWhvheK8" target="_blank" rel="noopener">
+                <img class="thumb__img" src="https://img.youtube.com/vi/-sAOWhvheK8/maxresdefault.jpg" alt="Trailer 2">
+                <svg class="thumb__play" viewBox="0 0 24 24" aria-hidden="true">
+                    <circle cx="12" cy="12" r="10" fill="none" stroke-width="1.6"></circle>
+                    <polygon points="10,8 16,12 10,16"></polygon>
+                </svg>
+            </a>
+            <a class="thumb" href="https://www.youtube.com/watch?v=1pHDWnXmK7Y" target="_blank" rel="noopener">
+                <img class="thumb__img" src="https://img.youtube.com/vi/1pHDWnXmK7Y/maxresdefault.jpg" alt="Trailer 3">
+                <svg class="thumb__play" viewBox="0 0 24 24" aria-hidden="true">
+                    <circle cx="12" cy="12" r="10" fill="none" stroke-width="1.6"></circle>
+                    <polygon points="10,8 16,12 10,16"></polygon>
+                </svg>
+            </a>
+            <a class="thumb" href="https://www.youtube.com/watch?v=umiKiW4En9g" target="_blank" rel="noopener">
+                <img class="thumb__img" src="https://img.youtube.com/vi/umiKiW4En9g/maxresdefault.jpg" alt="Trailer 4">
+                <svg class="thumb__play" viewBox="0 0 24 24" aria-hidden="true">
+                    <circle cx="12" cy="12" r="10" fill="none" stroke-width="1.6"></circle>
+                    <polygon points="10,8 16,12 10,16"></polygon>
+                </svg>
+            </a>
+        </div>
+    </section>
+    <footer class="footer container">
+        <div class="footer-top">
+            <div class="footer-brand">
+                <p class="logo"><img src="./Images/favicon.svg" alt="">uickShow</p>
+                <p class="desc">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+                    unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                <div class="stores">
+                    <img src="./Images/googlePlay-DT9q0T4u.svg" alt="Google Play">
+                    <img src="./Images/appStore-6IautTmU.svg" alt="App Store">
+                </div>
+            </div>
+            <div class="footer-cols">
+                <div class="footer-col">
+                    <h2 class="footer-title">Company</h2>
+                    <ul class="footer-list">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">Contact us</a></li>
+                        <li><a href="#">Privacy policy</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h2 class="footer-title">Get in touch</h2>
+                    <p>+1-234-567-890</p>
+                    <p>contact@example.com</p>
+                </div>
+            </div>
+        </div>
+
+        <p class="footer-bottom">Copyright 2025 © GreatStack. All Right Reserved.</p>
+    </footer>
+
+
+
+</body>
+
+</html>
